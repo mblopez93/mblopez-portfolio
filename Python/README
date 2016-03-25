@@ -1,0 +1,12 @@
+README
+Ma Lopez
+
+This script allows the user to invoke the microphone, record from the microphone, and pass the recording to CMUSphinx's Continuous Program, a speech recognition implementation.
+
+Input: 
+	R starts the recording
+	S stops the recording
+	P passes the recording into the Continuous
+	
+How to run on terminal:
+	python record.py
