@@ -1,0 +1,15 @@
+README
+Ma Lopez
+
+The purpose of the project was to design and build a simple state machine that will be written in behavioral,
+synthesizable Verilog by detecting the button input of Up, Up, Down, Down, Left, Right, Left, Right, Center, Center. 
+
+Input:
+	Buttons - Up, Down, Left, and Center
+	
+Output:
+	All LEDS light up when pattern is correct
+	
+Limitations: 
+	This project was targeted for the Digilent Atlys board which uses a Spartan-6 LX45 (324-pin BGA package,
+	speed grade -3) FPGA. The bit file (not included) was compiled using an Xilinx IDE.

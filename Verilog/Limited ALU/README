@@ -1,0 +1,16 @@
+README
+Ma Lopez
+
+The project was to design and build an FPGA design for the operation of an 4-bit ALU capable
+of performing addition (ADD), exclusive or (XOR) and no operation (NOP).
+
+Inputs: 
+	Two 4-bit inputs using switches: SW7-SW4 and SW3-SW0.
+	Button inputs: left (ADD), right (XOR), none (NOP), center(Clock)
+	
+Outputs:
+	Result of the flip-flops on the 5 LEDs LD4-LD0 (LD4 is the carry out)
+	
+Limitations: 
+	This project was targeted for the Digilent Atlys board which uses a Spartan-6 LX45 (324-pin BGA package,
+	speed grade -3) FPGA. The bit file (not included) was compiled using an Xilinx IDE.
