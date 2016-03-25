@@ -1,0 +1,14 @@
+README
+Ma Lopez
+
+This program creates an equilateral triangle with the side lengths 
+
+Input: 
+	integer from user
+
+Output: 
+	the asterisk diagram of an inverted equilateral triangle with the user_integer number length sides 
+	
+How to run on the terminal:
+> javac Triangle.java
+> java Triangle

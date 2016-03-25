@@ -1,0 +1,19 @@
+README FILE
+Ma Lopez
+
+This program takes calculates the Euclidean and Manhattan Distances between two coordinate points, 
+
+Input:
+	2 coordinate points (2 x coordinates and 2 y coordinates)
+
+Output:
+	The Euclidean Distance and Manhattan Distance rounded to two decimal points
+
+Bugs and limitations:
+	The user has to hit Enter to move on continue inputting the other coordinates; there is an instruction explaining this at beginning.
+	In some cases, the program can't get the Manhattan Distance to actually be rounded to the hundredth place; 
+	because the points were casted between multiple types, the Manhattan Distance might just be an integer with one zero taking the tenth place. 
+
+How to run in terminal:
+> javac Distance.java
+> java Distance

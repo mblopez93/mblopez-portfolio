@@ -1,0 +1,16 @@
+README
+Ma Lopez
+
+This program takes in a sentence, word or phrase from the user in English and converts it to Pig Latin
+
+Input: 
+	Sentence String from user 
+Output: 
+	Pig Latin String
+	
+Bugs and limitations:
+	Does not capitalize any of the characters
+	
+How to run on the terminal:
+> javac Pig.java
+> java Pig
