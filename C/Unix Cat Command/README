@@ -1,0 +1,18 @@
+cat program README file
+Ma Lopez
+
+To run, type into command line:
+
+   ./cat [file1] [file2]...
+
+The program should
+   - basically emulate the 'cat' program on Linux
+   - print out contents of files in the order they are given to the program 
+   - print 'not enough arguments' if no files given 
+   - print 'can't open file' if file doesn't exist
+   - print 'can't read file' if read fails (not tested)
+   - print 'can't write to stdout' if write fails (not tested)
+   
+Bugs and limitations:
+	intended for the FreeBSD 10.2 Operating System
+   

@@ -1,0 +1,31 @@
+# Ma Lopez (mblopez)
+# asg1: README file for myshell.c
+
+Compiling:
+	I set up the makefile so that I could create lex.yy.c and compile
+	myshell.c with just one command.
+
+	To compile, just enter 'make' into the command line.
+
+	This should create 'lex.yy.c' as well as an object named 'myshell'
+	To clean up the files, enter 'make clean'.
+
+Running:
+	To run the file, enter './myshell' into the command file.
+
+Functionality:
+	My program can handle basic commands such as 'ls' and 'ls -l'--
+	commands with and without arguments. It can also handle input and
+	output file redirection, regardless of arguments.
+
+Bugs and limitations:
+	intended for the FreeBSD 10.2 Operating System
+	
+	It unfortunately cannot handle any piping. It appears to hang in the
+	second child process, so while the left hand side of the pipe is
+	executed, the right hand side appears to do nothing. I left my debug
+	statements in so you could tell it's trying to do something. Work in Progress...
+	
+	
+
+	
